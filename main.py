@@ -4,11 +4,14 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium.webdriver import Firefox, FirefoxOptions
 from selenium.webdriver.common.action_chains import ActionChains
 import data_parser
 import excelparser
-
-driver = webdriver.Firefox()
+opts = FirefoxOptions()
+opts.add_argument("--width=1920")
+opts.add_argument("--height=1080")
+driver = webdriver.Firefox(options=opts)
 dataContainer = data_parser.NumberProcessor()
 ep = excelparser.Excel()
 driver.get("https://web.whatsapp.com/")
@@ -41,18 +44,22 @@ for i in range(0, int(scrollbarSize), 1295):
     tt = sorted(correctListuser)
     print(tt)
     for user in tt:
-        driver.execute_script("arguments[0].scrollTo(0, " + str(i) + ");", scrollbar)
-        time.sleep(0.8)
-        styleElement = user[1].get_attribute("style")
-        pixels = styleElement.split("translateY(")[1].split("px)")[0]
-        print("Pixel: " + pixels)
-        driver.execute_script("arguments[0].scrollTo(0, " + str(pixels) + ");", scrollbar)
-        time.sleep(0.2)
-        action = ActionChains(driver)
-        action.context_click(user[1]).perform()
-        time.sleep(0.4)
-        isGroupQuery = driver.find_elements(By.XPATH, "//div[@aria-label='Gruptan çık']")
-        gr = ""
+        try:
+            driver.execute_script("arguments[0].scrollTo(0, " + str(i) + ");", scrollbar)
+            time.sleep(0.8)
+            styleElement = user[1].get_attribute("style")
+            pixels = styleElement.split("translateY(")[1].split("px)")[0]
+            print("Pixel: " + pixels)
+            driver.execute_script("arguments[0].scrollTo(0, " + str(pixels) + ");", scrollbar)
+            time.sleep(0.2)
+            action = ActionChains(driver)
+            action.context_click(user[1]).perform()
+            time.sleep(0.4)
+            isGroupQuery = driver.find_elements(By.XPATH, "//div[@aria-label='Gruptan çık']")
+            gr = ""
+        except:
+            print("Last users!")
+
         if len(isGroupQuery) > 0:
             gr = "true"
         else:
@@ -183,7 +190,6 @@ print(addedList)
 print("Username List: ")
 print(userNameList)
 time.sleep(60)
-ep.closeFile()
 
 # Tarayıcıyı kapat
 driver.quit()

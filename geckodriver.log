@@ -3460,3 +3460,77 @@ JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: 
 [2023-02-15T19:38:45Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
 [2023-02-15T19:38:46Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
 [2023-02-15T19:38:46Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1676501799309	Marionette	INFO	Stopped listening on port 56984
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=1920" "--height=1080" "--remote-de ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofileyALcB3"
+1676499278839	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676499278845	Marionette	INFO	Listening on port 51911
+Read port: 51911
+WebDriver BiDi listening on ws://127.0.0.1:51897
+1676499278979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofileyALcB3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51897/devtools/browser/5ec62d7d-a84a-49e9-81c1-9cc95c34638e
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+1676499349731	geckodriver	INFO	Listening on 127.0.0.1:51983
+1676499352810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=1920" "--height=1080" "--remote-de ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofileezXnJu"
+1676499353242	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676499353248	Marionette	INFO	Listening on port 51992
+Read port: 51992
+WebDriver BiDi listening on ws://127.0.0.1:51984
+1676499353394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofileezXnJu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51984/devtools/browser/90fa8e2d-dc41-444c-bcb2-586b961518da
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+[2023-02-15T22:17:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:17:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:17:56Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:17:56Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:18:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:18:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:26:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:26:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:26:15Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:26:15Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:26:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:26:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:26:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:26:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:26:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T22:26:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1676501101199	Marionette	INFO	Stopped listening on port 51992
+Dynamically enable window occlusion 1
+1676501917580	geckodriver	INFO	Listening on 127.0.0.1:54759
+1676501920636	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=1920" "--height=1080" "--remote-de ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofileJbuFGb"
+1676501921070	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676501921074	Marionette	INFO	Listening on port 54769
+Read port: 54769
+WebDriver BiDi listening on ws://127.0.0.1:54760
+1676501921205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofileJbuFGb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54760/devtools/browser/0a54e593-6f14-491f-8679-184c1bc34b50
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+[2023-02-15T23:00:20Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T23:00:20Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T23:00:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T23:00:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T23:01:06Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-02-15T23:01:06Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1676502416417	geckodriver	INFO	Listening on 127.0.0.1:55165
+1676502444855	geckodriver	INFO	Listening on 127.0.0.1:55210
+1676502447905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=1920" "--height=1080" "--remote-de ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofileZF5Ta6"
+1676502448501	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676502448505	Marionette	INFO	Listening on port 55220
+Read port: 55220
+WebDriver BiDi listening on ws://127.0.0.1:55211
+1676502448654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofileZF5Ta6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55211/devtools/browser/c2de57f9-b045-4747-ad8e-2b34c0caa4e4
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
