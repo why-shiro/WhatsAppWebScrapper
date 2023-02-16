@@ -1,3 +1,1 @@
-text = "Atahan"
-
-print(text.split("\n")[0])
+# Not in need anymore
