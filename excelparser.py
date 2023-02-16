@@ -7,7 +7,7 @@ import openpyxl
 class Excel:
 
     def __init__(self):
-        if not(os.path.exists("contacts.xlsx")):
+        if not (os.path.exists("contacts.xlsx")):
             wb = openpyxl.Workbook()
             time.sleep(1)
             wb.save("contacts.xlsx")
@@ -50,11 +50,10 @@ class Excel:
                     print("Listed Numbers: ", self.max)
                     break
 
+        self.workbook = openpyxl.load_workbook("contacts.xlsx")
+        self.worksheet = self.workbook.active
 
     def addContact(self, element):
-        self.worksheet["A"+str(self.column)] = element
+        self.worksheet["A" + str(self.column)] = element
         self.workbook.save("contacts.xlsx")
         self.column += 1
-
-ep = Excel()
-

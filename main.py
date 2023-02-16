@@ -1,5 +1,6 @@
 import time
 
+import selenium
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -75,12 +76,20 @@ for i in range(0, int(scrollbarSize), 1295):
                     time.sleep(0.4)
                     userInfo.click()
                     time.sleep(0.4)
-                    telephoneNumber = driver.find_elements(By.XPATH, "//div[contains(@class,'a4ywakfo qt60bha0')]")[
-                        0].get_attribute("innerText")
-                    print(user[1].get_attribute("innerText").split("\n")[0], gr, pixels, telephoneNumber)
-                    addedList.append(user[1].get_attribute("innerText").split("\n")[0])
+                    telephoneNumber = driver.find_elements(By.XPATH, "//div[contains(@class,'a4ywakfo qt60bha0')]") # [0].get_attribute("innerText")
+                    if len(telephoneNumber) == 0:
+                        print("İşletme hesabına giriş yapılıyor.")
+                        telephoneNumber = driver.find_elements(By.XPATH,"//div[contains(@data-testid,'container_with_separator')]")[0].get_attribute("innerText")
+                        print("Number: ", telephoneNumber)
+                        addedList.append(telephoneNumber)
+                        ep.addContact(telephoneNumber)
+                    else:
+                        print(user[1].get_attribute("innerText").split("\n")[0], gr, pixels, telephoneNumber[0].get_attribute("innerText"))
+                        print("Number: ", telephoneNumber[0].get_attribute("innerText"))
+                        addedList.append(telephoneNumber[0].get_attribute("innerText"))
+                        ep.addContact(telephoneNumber[0].get_attribute("innerText"))
                 except:
-                    print("Bulunan hesaap işletme hesabıdır.")
+                    print("Error Occured.")
                     continue
         else:
             if not (addedList.__contains__(user[1].get_attribute("innerText").split("\n")[0])):

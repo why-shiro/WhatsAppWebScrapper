@@ -3534,3 +3534,39 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:55211/devtools/browser/c2de57f9-b045-4747-ad8e-2b34c0caa4e4
 JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
 JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+1676506853596	geckodriver	INFO	Listening on 127.0.0.1:53044
+1676506856673	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=1920" "--height=1080" "--remote-de ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofile25fzZ7"
+1676506856987	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676506856991	Marionette	INFO	Listening on port 53054
+Read port: 53054
+WebDriver BiDi listening on ws://127.0.0.1:53045
+1676506857098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofile25fzZ7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53045/devtools/browser/d779e66d-b146-4494-8f72-ef1b6993b90b
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+1676507085710	geckodriver	INFO	Listening on 127.0.0.1:53261
+1676507088765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=1920" "--height=1080" "--remote-de ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofilepfIhDA"
+1676507089327	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676507089331	Marionette	INFO	Listening on port 53271
+Read port: 53271
+WebDriver BiDi listening on ws://127.0.0.1:53262
+1676507089465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofilepfIhDA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53262/devtools/browser/8f24cedb-9cc4-4ddc-8c20-ccaeefe1a8a1
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+1676507206717	geckodriver	INFO	Listening on 127.0.0.1:53417
+1676507209740	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=1920" "--height=1080" "--remote-de ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofileU66cEX"
+1676507210036	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1676507210040	Marionette	INFO	Listening on port 53426
+Read port: 53426
+WebDriver BiDi listening on ws://127.0.0.1:53418
+1676507210241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\yigit\\AppData\\Local\\Temp\\rust_mozprofileU66cEX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53418/devtools/browser/e4132bf0-8243-4578-bbff-19e741c7dd83
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
